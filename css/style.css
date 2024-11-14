@@ -49,10 +49,17 @@ a:focus{
     outline: none;
 }
 #collapseLogin{
-    margin: 15px;
+    margin: 15px auto;
     padding: 40px 10px;
     border: 1px solid black;
     border-radius: 4px;
+    width: 50%;
+ 
+}
+@media (max-width: 768px) {
+    #collapseLogin {
+        width: 100%;
+    }
 }
 .btn-submit{
     color: white;
@@ -76,5 +83,9 @@ a:focus{
 .accordion{
     border: none !important;
     outline: none !important;
+}
+
+.card-body{
+   
 }
 
